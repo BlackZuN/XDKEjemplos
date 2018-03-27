@@ -21,7 +21,7 @@ git clone https://github.com/BlackZuN/XDKEjemplos.git
 pip install -r requirements.txt
 ```
 
-Es importante modificar el documento credenciales.py en el cual tendrá las consumer Keys y el numero de puerto
+Es importante modificar el documento credenciales.py en el cual tendrá las consumer Keys y el numero de puerto serial de la XDK
 ```
 CONSUMER_KEY = ""
 CONSUMER_SECRET =""
@@ -33,11 +33,11 @@ ACCESS_TOKEN_SECRET = ""
 COM = ""
 ```
 
-Para los siguientes pasos es necesario abrir el workbench e importar el zip TemperaturaSerial
+Para los siguientes pasos es necesario abrir el workbench, copiar TemperaturaSerial.c al archivo .c de un proyecto nuevo creado con el mismo nombre del programa, ahi quitar el codigo original y sustituirlo por el actual.
 
 # Ejecutando
 
-Una vez que el workbench se está ejecutando hay que dar click en COM para deshabilitar el puerto serial en el Workbench y posteriormente es necesario ejecutar el script.
+Una vez que el workbench se está ejecutando hay que dar click en COM para deshabilitar el puerto serial en el Workbench y posteriormente es necesario ejecutar el script de python.
 
 
 ```
